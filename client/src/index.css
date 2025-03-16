@@ -1,9 +1,7 @@
 * {
   margin: 0
 }
-html {
-  background-color: #111
-}
+
 @import "tailwindcss";
 
 .scrollable {

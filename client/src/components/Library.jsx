@@ -21,8 +21,8 @@ export default function Library()
     })
 
     return (
-        <div className="flex flex-col gap-1 bg-blue-900 rounded-xl p-2 h-full">
-            <div className="flex items-center w-full justify-between p-1">
+        <div className="flex flex-col gap-1 bg-gray-900 rounded-xl p-2 h-full">
+            <div className="flex items-center justify-between p-1">
                 <img src="/icons/folder.svg"
                     className="h-[2rem] invert-100 cursor-pointer" />
                 <h1 className={`text-white text-2xl font-bold`}>{!isLibraryFolded && 'Library'}</h1>
